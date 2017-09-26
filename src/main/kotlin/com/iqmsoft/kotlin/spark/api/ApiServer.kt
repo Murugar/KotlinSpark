@@ -7,6 +7,6 @@ import spark.Spark.get
 
 fun main(args : Array<String>) {
     val pingController : PingController = PingController()
-    get("/ping", { request, response -> pingController.handle(request, response) })
+    get("/test", { request, response -> pingController.handle(request, response) })
 }
 

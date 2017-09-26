@@ -7,7 +7,7 @@ import spark.Response
 class PingController {
 
     fun handle(request: Request?, response: Response?): String {
-        return "pong"
+        return "Hello Kotlin Spark"
     }
 }
 
